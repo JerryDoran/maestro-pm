@@ -10,20 +10,20 @@ const buttonVariants = cva(
     variants: {
       variant: {
         primary:
-          'bg-gradient-to-b from-blue-600 to-blue-700 text-primary-foreground dark:text-accent-foreground hover:from-blue-700 hover:to-blue-700',
+          'bg-gradient-to-b from-blue-600 to-blue-700 text-primary-foreground dark:text-accent-foreground hover:from-blue-700 hover:to-blue-700 transition',
         destructive:
-          'bg-gradient-to-b from-amber-600 to-amber-700 text-destructive-foreground hover:from-amber-700 hover:to-amber-700',
+          'bg-gradient-to-b from-amber-600 to-amber-700 text-destructive-foreground hover:from-amber-700 hover:to-amber-700 transition',
         outline:
-          'border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground',
+          'border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground transition',
         secondary:
-          'bg-white text-black hover:bg-neutral-100 dark:bg-black dark:text-white dark:hover:bg-accent',
+          'bg-white text-black hover:bg-neutral-100 dark:bg-black dark:text-white dark:hover:bg-accent transition',
         ghost:
-          'border-none shadow-none hover:bg-accent hover:text-accent-foreground',
-        link: 'text-primary underline-offset-4 hover:underline',
+          'border-none shadow-none hover:bg-accent hover:text-accent-foreground transition',
+        link: 'text-primary underline-offset-4 hover:underline transition',
         muted:
-          'bg-neutral-200 dark:bg-neutral-800 dark:text-neutral-400 text-neutral-600 hover:bg-neutral-200/80 dark:hover:bg-neutral-800/70',
+          'bg-neutral-200 dark:bg-neutral-800 dark:text-neutral-400 text-neutral-600 hover:bg-neutral-200/80 dark:hover:bg-neutral-800/70 transition',
         teritary:
-          'bg-blue-100 text-blue-600 border-transparent hover:bg-blue-200 shadow-none',
+          'bg-blue-100 text-blue-600 border-transparent hover:bg-blue-200 shadow-none transition',
       },
       size: {
         default: 'h-10 px-4 py-2',
